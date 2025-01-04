@@ -1,0 +1,51 @@
+#banner {
+  height: 100vh; 
+  background-image: url('../img/doctors.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay for dimming and blurring the background */
+#banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(5px); 
+  z-index: 1;
+}
+
+
+#banner .container {
+  z-index: 2;
+}
+
+.banner-btn a:hover {
+  opacity: 0.9;
+}
+
+
+/*--body--*/
+
+
+.body {
+  background-color: #ffffff;
+  font-family: "Brygada 1918", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
