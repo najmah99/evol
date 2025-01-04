@@ -1,6 +1,6 @@
 #banner {
   height: 100vh; 
-background-image: url('https://najmah99.github.io/evol/img/doctors.jpeg');
+  background-image: url('../img/doctors.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
