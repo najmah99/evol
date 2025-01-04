@@ -1,5 +1,8 @@
-#banner {
-  position: absolute;
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#c9f2fb),url(..img/bunch.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   height: 100vh;
   overflow: hidden;
   display: flex;
